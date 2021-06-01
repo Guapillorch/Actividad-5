@@ -20,7 +20,7 @@ int main()
     banco = banco + monto; //acumulador
     numdepositos = numdepositos + 1; //contador
     printf("¿Quieres realizar otro deposito (s/n)");
-    scanf("%c", &respuesta);
+    scanf("%s", &respuesta);
 
     } while( respuesta != 'n' ); //condition While = mientras
     
