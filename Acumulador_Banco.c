@@ -14,7 +14,7 @@ int main()
     {
 
      //voy al banco
-    respuesta = 's'
+    respuesta = 's';
     printf("\n \n monto a depositar: ");
     scanf("%d", &monto);
     banco = banco + monto; //acumulador
@@ -25,5 +25,5 @@ int main()
     } while( respuesta != 'n' ); //condition While = mientras
     
     printf("Dinero que tienes en el banco %d ", banco);
-    printf("numero de depositos %d ", numdepositos)
+    printf("numero de depositos %d ", numdepositos);
 }
