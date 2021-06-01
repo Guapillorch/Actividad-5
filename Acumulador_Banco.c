@@ -9,12 +9,13 @@ int main()
     numdepositos=0;
     banco=0;
     monto=0;
+    respuesta = 's'; 
     do
     {
 
      //voy al banco
     respuesta = 's'
-    printf("\n\n monto a depositar: ");
+    printf("\n \n monto a depositar: ");
     scanf("%d", &monto);
     banco = banco + monto; //acumulador
     numdepositos = numdepositos + 1; //contador
